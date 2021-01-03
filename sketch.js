@@ -86,7 +86,7 @@ function draw(){
             spacePressed = false;
             button.visible = true;
         } 
-        if(frameCount % 10 === 0) {
+        if(frameCount % 60 === 0) {
             particles.push(new Particle(random(10, 390), 10, 10));
         }
 
